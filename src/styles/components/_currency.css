@@ -1,0 +1,45 @@
+.currency-converter{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.input-group {
+    position: relative;
+    margin-right: 30px;
+}
+span{
+padding-left: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+input{
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+svg{
+    position: absolute;
+   right: 20px;
+    top: 50%;
+
+}
+@media (max-width: 568px) {
+    .currency-converter {
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        width: 200px;
+    }
+    .input-group{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px) {
+    input{
+        width: 200px;
+    }
+}
