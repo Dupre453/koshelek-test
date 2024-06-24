@@ -20,11 +20,10 @@ input{
     border-radius: 20px;
     font-size: 16px;
 }
-svg{
-    position: absolute;
-   right: 20px;
-    top: 50%;
-
+.currency{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 @media (max-width: 568px) {
     .currency-converter {
